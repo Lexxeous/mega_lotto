@@ -33,12 +33,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler
   mega_lotto!
   pry
   pry-rails
-  rake (~> 10.0)
-  rspec (~> 3.0)
+  rake
+  rspec
 
 BUNDLED WITH
    1.16.2
