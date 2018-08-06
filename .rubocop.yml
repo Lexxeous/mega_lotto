@@ -1,0 +1,70 @@
+AllCops:
+  TargetRubyVersion: 2.5.0
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/ParameterLists:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - "*.gemspec"
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInArguments:
+  # If `comma`, the cop requires a comma after the last argument, but only for
+  # parenthesized method calls where each argument is on its own line.
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  # If `comma`, the cop requires a comma after the last item in an array or
+  # hash, but only when each item is on its own line.
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  # If `comma`, the cop requires a comma after the last item in an array or
+  # hash, but only when each item is on its own line.
+  EnforcedStyleForMultiline: comma
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: true
+  PreferredDelimiters:
+    default: ()
+    "%i": "()"
+    "%I": "()"
+    "%r": "{}"
+    "%w": "()"
+    "%W": "()"
+
+Style/EmptyMethod:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
