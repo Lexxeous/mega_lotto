@@ -1,4 +1,4 @@
-# <img src="/Users/alex/OneDrive - Gibson IT Solutions/Pictures/Gibson/Lexxeous/Headshot Transparent.png" width="100px"/> Lexxeous's MegaLotto
+# <img src="assets/images/lexx_headshot_clear.png" width="100px"/> Lexxeous's MegaLotto <img src="assets/images/mega_millions.png" width="100px" height="62"/>
 
 ![License](https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667)
 
