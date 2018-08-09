@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mega_lotto (0.1.0)
+    mega_lotto_benchmark (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  mega_lotto!
+  mega_lotto_benchmark!
   pry
   pry-rails
   rake

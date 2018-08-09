@@ -2,7 +2,7 @@
 
 ![License](https://camo.githubusercontent.com/890acbdcb87868b382af9a4b1fac507b9659d9bf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667)
 
-MegaLotto is a Ruby gem built via the free "Build a Ruby Gem" email tutorial course provided by [Brandon Hilkert](https://brandonhilkert.com/). This repository was created simply as my interpretation of the project. I claim no affiliation or ownership of any following code or concepts.
+MegaLotto is a Ruby gem built via the free "Build a Ruby Gem" email tutorial course provided by [Brandon Hilkert](https://brandonhilkert.com/). This repository was created simply as my interpretation of the project. I claim no affiliation or ownership of any code contained within this repository.
 
 ## Installation
 
@@ -25,7 +25,9 @@ $ gem install mega_lotto
 
 ## Usage
 
-Main Ruby code is located in the `lib/mega_lotto` file. Supporting files are located in neighboring files within the `lib/` directory. To experiment with this code, run `bin/console` for an interactive prompt.
+Main Ruby code is located in the `lib/mega_lotto` file. Supporting files are located in neighboring files within the `lib/` directory. To experiment with this code, run `bin/console` for an interactive prompt.<br>
+
+This gem also includes benchmarks for 3 different way of generating the array of random MegaLotto numbers. This shows the difference of computational speed for a few different Ruby methods.
 
 ## Development
 

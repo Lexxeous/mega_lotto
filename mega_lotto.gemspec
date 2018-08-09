@@ -5,19 +5,19 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "mega_lotto/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mega_lotto"
+  spec.name          = "mega_lotto_benchmark"
   spec.version       = MegaLotto::VERSION
-  spec.authors       = ["Alex Gibson (Dante MacBook Pro)"]
+  spec.authors       = ["Alex Gibson"]
   spec.email         = ["agibson@gibsonusa.net"]
 
-  spec.summary       = "Generates random lottery numbers."
-  spec.description   = "Generates random lottery numbers."
+  spec.summary       = "Generates & benchmarks random lottery numbers."
+  spec.description   = "Generates & benchmarks random lottery numbers."
   spec.homepage      = "https://github.com/Lexxeous/mega_lotto"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'" if spec.respond_to?(:metadata)
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/profiles/Lexxeous" if spec.respond_to?(:metadata)
   raise "RubyGems 2.0 or newer is required to protect against public gem pushes." unless spec.respond_to?(:metadata)
 
   # Specify which files should be added to the gem when it is released.
