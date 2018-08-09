@@ -9,7 +9,7 @@ MegaLotto is a Ruby gem built via the free "Build a Ruby Gem" email tutorial cou
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "mega_lotto"
+gem "mega_lotto_benchmark", "~> 1.0"
 ```
 
 And then execute:
@@ -20,7 +20,7 @@ $ bundle
 
 Or install it yourself with:
 ```sh
-$ gem install mega_lotto
+$ gem install mega_lotto_benchmark
 ```
 
 ## Usage
